@@ -294,7 +294,7 @@ bool BST<T>::empty() const {
 	return (raiz == 0);
 }
 
-//o(n)
+//o(logn)
 template<class T>
 void BST<T>::add(T val) {
 	if (raiz != 0) {
@@ -306,7 +306,7 @@ void BST<T>::add(T val) {
 	}
 }
 
-//o(N)
+//o(logN)
 template <class T>
 void BST<T>::remove(T val) {
 	if (raiz != 0) {
@@ -323,7 +323,7 @@ void BST<T>::remove(T val) {
 	}
 }
 
-// o(N)
+// o(logN)
 template <class T> void BST<T>::removeAll() {
 	if (raiz != 0) 		raiz->removeChilds();
 	
@@ -331,7 +331,7 @@ template <class T> void BST<T>::removeAll() {
 	raiz = 0;
 }
 
-// o(N)
+// o(logN)
 template <class T>bool BST<T>::find(T val) const {
 	if (raiz != 0) 		return raiz->find(val);
 	
@@ -339,7 +339,7 @@ template <class T>bool BST<T>::find(T val) const {
 	
 }
 
-// o(N)
+// o(logN)
 template <class T> int BST<T>::whatlevelamI(T val) const {
 	if (raiz != 0) {
 	 	int num = raiz->whatlevelamI(val);
@@ -351,7 +351,7 @@ template <class T> int BST<T>::whatlevelamI(T val) const {
 	}
 }
 
-// o(N)
+// o(logN)
 template <class T>  string BST<T>::inorder() const {
 	 stringstream auxiliar;
 
@@ -362,7 +362,7 @@ template <class T>  string BST<T>::inorder() const {
 	auxiliar << "]";
 	return auxiliar.str();
 }
-// o(N)
+// o(logN)
 template <class T>  string BST<T>::preorder() const {
 	 stringstream auxiliar;
 
@@ -373,7 +373,7 @@ template <class T>  string BST<T>::preorder() const {
 	auxiliar << "]";
 	return auxiliar.str();
 }
-// o(N)
+// o(logN)
 template <class T>  string BST<T>::postorder() const {
 	 stringstream auxiliar;
 
@@ -387,7 +387,7 @@ template <class T>  string BST<T>::postorder() const {
 
 
 
-// o(N)
+// o(logN)
 template <class T>  string BST<T>::visit() {
 	 stringstream auxiliar;
 	auxiliar << preorder() << "\n";
@@ -397,7 +397,7 @@ template <class T>  string BST<T>::visit() {
 	return auxiliar.str();
 }
 
-// o(N)
+// o(logN)
 template <class T>  string BST<T>::levelorder() const {
 	 stringstream auxiliar;
 
@@ -408,12 +408,12 @@ template <class T>  string BST<T>::levelorder() const {
 	auxiliar << "]";
 	return auxiliar.str();
 }
-// o(N)
+// o(logN)
 template <class T> int BST<T>::height() const {
 	return raiz->height();
 }
 
-// o(N)
+// o(logN)
 template <class T>  string BST<T>::ancestors(T val) const {
 	 stringstream auxiliar;
 	auxiliar << "[";
