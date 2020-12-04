@@ -1,5 +1,5 @@
-#ifndef "ACT_H"
-#define "ACT_H"
+#ifndef ACT_H
+#define ACT_H
 
 
 unsigned int sumaIterativa(unsigned int n){
