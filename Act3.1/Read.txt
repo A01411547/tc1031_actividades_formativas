@@ -1,0 +1,13 @@
+Arboles binarios de busqueda
+Es un arbol binario con el plus de que todos los elementos almacenados en el subarbol del lado izquierdo de cualquier nodo P son menores que el elemento guardado en P y lo contrario con el subarbol del lado derecho de cualquier nodo P este sera mayor que el elemento guardado en P.
+
+Algoritmos:
+
+-
+
+-
+
+-
+
+-
+
