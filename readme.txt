@@ -1,29 +1,31 @@
-Listas simplemente ligadas. 
+Listas doblemente ligadas
+Una lista doblemente ligada es una lista lineal en la cual cada nodo cuenta con 2 enlaces, uno al nodo siguiente y otro nodo al anterior.
+En pocas palabras pueden recorrerse de un lado a otro, en ambos sentidos a partir de cualquier nodo.
 
-Una lista ligada consiste de una serie de nodos en las que cada 
-nodo hace referencia al siguiente elemento de la lista. (Geeksforgeeks, s.f.)
 
-Funciones
-funcion add  complejidad o(1)
- esta funcion se encarga de agregar un nuevo elemento a los nodos
- anidados 
 
-Metodo find
- complejidad O(n)
- este metodo realiza una busqueda recursiva dentro de los elementos
- anidados 
+Algoritmos.
 
-Metodo update
- complejidad o(n)
- se realiza un recorrido completo de la lista elemento por elemento
- hasta hallar un elemento dado y poder modificarlo
+Add
+Complejidad O(1)
+Se realiza la insersión de apuntadores en la posición
+correspondiente dentro de la lista de nodos
 
-Metodo remove
- o(1)
- se encarga de localizar un elemento dentro de la lista para eliminarlo
- y entrelazar los apuntadores que lo rodean
+ delete
+ complejidad o(1)
+ Se elimina el nodo seleccionado
+ y se enlazan entre si el nodo
+ anterior y el nodo siguente en la 
+ lista. 
 
-Metodo clear
- complejidad o(N)
- esta funcion hace un recorrido completo de la lista
- eliminando cada elemento hallado
+ Find. Complejidad o(n)
+ Se realiza un recorrido de la lista a manera de 
+ busqueda recursiva hasta encontrar el
+ elemento deseado
+
+ Update. complejidad o(n)
+ Se realiza unn recorrido de
+ la lista a manera de busqueda
+ recursiva hasta encontrar el elemento
+ que se desea modificar
+
