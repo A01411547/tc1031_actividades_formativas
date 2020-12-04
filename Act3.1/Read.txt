@@ -1,13 +1,12 @@
 Arboles binarios de busqueda
-Es un arbol binario con el plus de que todos los elementos almacenados en el subarbol del lado izquierdo de cualquier nodo P son menores que el elemento guardado en P y lo contrario con el subarbol del lado derecho de cualquier nodo P este sera mayor que el elemento guardado en P.
+Es un arbol binario con el plus de que todos los elementos almacenados en el subarbol 
+del lado izquierdo de cualquier nodo P son menores que el elemento guardado en P y lo
+contrario con el subarbol del lado derecho de cualquier nodo P este sera mayor que 
+el elemento guardado en P.
 
-Algoritmos:
+Dentro de esta estructura de datos, se presenta una complejidad asintotica general de log(n) ya que 
+tenemos una división de las tareas al tener un crecimiento de 2 en 2 al movernos a lo largo del arbol. 
+Esto hace que a fin de cuentas se dividan cada vez entre 2 las consultas a realizar, obteniendo asi 
+un comportamiento logartimico. 
 
--
-
--
-
--
-
--
-
+*se corrigieron las complejidades en el archivo 
